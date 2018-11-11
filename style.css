@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	font-family: 'Questrial', sans-serif;
+}
+
+
+.background-img {
+	background: url(img/wave.png) no-repeat center center fixed;
+	background-size: cover;
+	height: 80vh;
+	width: 100vw;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.social {
+	overflow: hidden;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 500px;
+
+}
+
+.gap {
+	margin-top: 15px;
+}
+
+.instagap {
+	margin-top: 50px;
+}
+
+.col-md-8 {
+	padding-left: 100px;
+}
+
+.position {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.position1 {
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 70px;
+}
+
+.position2 {
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 70px;
+}
+
+.header {
+	color: 	#666666;
+	font-size: 15px;
+}
+
+.logo {
+	width: 100px;
+	border-radius: 50%;
+}
+
+.brandname {
+	color: white;
+	position: absolute;
+	left: 35px;
+	top: 20px;
+	font-size: 20px;
+}
+
+.fab  {
+	color: black;
+	font-size: 17px;
+	padding-left:4px;
+
+}
+
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  padding-left: 790px;
+  padding-top: 25px;
+}
+
+/* Navbar links */
+.topnav a {
+  text-align: center;
+  padding: 5px 9px;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+
+.topnav a:hover {
+  color: #1BA0CA;
+}
+
+
+.button {
+    background-color: black;
+    border: none;
+    font-size: 13px;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.font {
+
+	font-size: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+.button:hover {
+    background-color: #1BA0CA; 
+    color: white;
+}
+p {
+	font-size: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 100px;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 40px;
+}
+
+.instagram-media {
+
+	margin-top: 200px;
+}
+
+
+footer { 
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
